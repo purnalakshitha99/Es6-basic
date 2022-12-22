@@ -5,9 +5,13 @@ export class Teacher extends Person{
         super(name);
     }
 
+    teach(){
+        console.log('teach teacher');
+    }
+
 }
 
-const T1 = new Teacher('Samanali');
+const T1 = new Person('Samanali');
 T1.walk();
 console.log(T1.name);
 

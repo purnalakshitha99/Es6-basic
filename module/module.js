@@ -6,6 +6,7 @@
     walk(){
         console.log('walk');
     }
+    
 }
 
 
