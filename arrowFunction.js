@@ -16,6 +16,12 @@ const games =[
     { name : 'vallyBall',players:6}
 ]
 
-const newGames = games.findIndex(newGames => newGames.name === 'cricket');
+const newGames = games.find(newGames => newGames.name === 'cricket'); //adala values dei
+const newGamesIndex = games.findIndex(newGamesIndex => newGamesIndex.name === 'cricket')//circket eka thiyena index eka dei
+const filternewGames = games.filter(newGames => newGames.name ); 
+
 
 console.log(newGames);
+console.log(newGamesIndex)
+console.log(filternewGames)
+
