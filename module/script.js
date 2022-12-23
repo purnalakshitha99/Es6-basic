@@ -1,3 +1,9 @@
+//   default ->      import ..... from '';
+
+// norml object or variable or others       ->       import { } from '';
+
+
+
 import  Person from "./module.js";//methana default ekak nisa person nikanma damai
 
 export class Teacher extends Person{
